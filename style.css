@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.span_color{
+    color: rgb(253, 110, 10);
+}
+
+
+
+
+.header_container{
+    height: 100vh;
+    background: url(./images/header_bg.png) no-repeat;
+    background-position: bottom right;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    height: 96px;
+    align-items: center;
+}
+.nav_container > h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.nav_btns > li > a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 19px;
+}
+.nav_btns > li > a:hover{
+    color: rgb(253, 110, 10);
+}
+.nav_btns{
+    display: flex;
+    list-style-type: none;
+    gap: 90px;
+}
+.nav_btns > li>.Hire_Me_btn{
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 4px;
+    background: rgb(253, 110, 10);
+    color: white;
+}
+.nav_btns > li > .Hire_Me_btn:hover{
+    background: black;
+}
+
+.left_side_text img{
+    position: absolute;
+    top:20px;
+    left: 5px;
+    height: 94%;
+    opacity: 0.8;
+}
+/* END THE NAV AND SIDE TEXT */
+
+
+
+
+.banner_text_and_img_container{
+    display: flex;
+}
+
+.banner_text_container{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left: 170px;
+}
+.banner_text_container > div >h2{
+    color: rgb(69, 66, 66);
+    font-size: 30px;
+    font-weight: 700;
+}
+.banner_text_container > div >h1{
+    font-weight: 400;
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner_text_container > div >p{
+    font-size: 18px;
+}
+.banner_text_container div > .button_container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.banner_text_container > div > .button_container > button{
+    font-size: 18px;
+    border: none;
+    padding: 14px 25px;
+    font-weight: 500;
+}
+.about_me_button{
+    color: white;
+    background: rgb(253, 110, 10);
+    cursor: pointer;
+}
+.about_me_button:hover{
+    background: black;
+    color: rgb(253, 110, 10);
+}
+.banner_text_container > div > .button_container > button >a{
+    text-decoration: none;
+    color: rgb(253, 110, 10)
+}
+.banner_text_container > div > .button_container .cv_button{
+    border:2px solid rgb(253, 110, 10);
+}
+.banner_text_container > div > .button_container > button>a:hover{
+    color: rgb(32, 16, 5);
+}
+.banner_img_container{
+    position: relative;
+    width: 50%;
+    height: 85.8vh;
+}
+.man_img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 90%;
+}
